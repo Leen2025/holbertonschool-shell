@@ -1,1 +1,1 @@
-ls -a . .. /boot
+ls -al . .. /boot
