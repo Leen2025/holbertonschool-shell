@@ -1,3 +1,5 @@
 #!/bin/bash
-if [ "$(stat -c %U /tmp/hello)" = "guillaume" ]; then 
-sudo chown vincent /tmp/hello 
+
+if [ "$(stat -c %U /tmp/hello)" = "guillaume" ]; then
+    sudo chown vincent /tmp/hello
+fi
