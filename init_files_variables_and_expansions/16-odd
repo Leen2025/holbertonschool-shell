@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d, - - | cut -d, -f1
+cat -n | grep -E '^[[:space:]]*[1-9]*[13579][[:space:]].*$' | cut -d$'\t' -f2
